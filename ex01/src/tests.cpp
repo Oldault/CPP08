@@ -6,7 +6,7 @@
 /*   By: oldault <oldault@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 10:13:34 by oldault           #+#    #+#             */
-/*   Updated: 2024/06/12 11:21:11 by oldault          ###   ########.fr       */
+/*   Updated: 2024/06/13 18:18:22 by oldault          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ string_code hashit (const std::string& str)
   return NONE;
 }
 
-void logH(const std::string& str)
+static void logH(const std::string& str)
 {
   std::cout << FMAG((str)) << "\t";
 }

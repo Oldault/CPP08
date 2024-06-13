@@ -6,11 +6,13 @@
 /*   By: oldault <oldault@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 10:47:16 by oldault           #+#    #+#             */
-/*   Updated: 2024/06/12 10:47:37 by oldault          ###   ########.fr       */
+/*   Updated: 2024/06/13 18:21:19 by oldault          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "Colors.hpp"
 #include <string>
+#include <iostream>
 
 enum string_code {
   BASIC,
